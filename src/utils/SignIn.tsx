@@ -12,6 +12,7 @@ export default function SignIn() {
         <div className="text-sm text-gray-500">
           Enter your email to receive a PIN code
         </div>
+        
         <input
           type="email"
           placeholder=" Enter yourEmail"
