@@ -9,6 +9,7 @@ import TermsConditions from "./utils/TermsConditions";
 import Showcase from "./components/Showcase";
 import WhyFolio from "./components/WhyFolio";
 import GlobalReach from "./components/GlobalReach";
+import SignupPage from "./utils/SignupPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/support" element={<SupportPage/>}/>
         <Route path="/privacypolicy" element={<PrivacyPolicyPage/>}/>
         <Route path="/termsandconditions" element={<TermsConditions/>}/>
+        <Route path="/signup" element={<SignupPage/>}/>
       </Routes>
     </BrowserRouter>
   );

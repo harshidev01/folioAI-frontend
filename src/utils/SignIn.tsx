@@ -1,4 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
+
+
 export default function SignIn() {
+  const navigate = useNavigate()
+   
+  function handleNavigate(path:string){
+    navigate(path);
+  }
+
+  
   return (
     <div className="flex flex-col justify-center items-center mt-60">
       <div className="flex items-center gap-2">
@@ -25,7 +36,7 @@ export default function SignIn() {
         </div>
         <div className="flex text-sm justify-center  gap-1">
           <div className="flex text-gray-500">Don't have an account? </div>
-          <button className="underline cursor-pointer" >Sign Up</button>
+          <button className="underline cursor-pointer" onClick={() => handleNavigate("/signup")} >Sign Up</button>
         </div>
       </div>
     </div>
