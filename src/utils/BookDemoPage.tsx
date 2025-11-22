@@ -4,8 +4,8 @@ import Header from "../components/Header";
 export default function BookDemoPage() {
   return (
     <div>
-      <Header />
-      <div className="flex flex-col justify-center items-center">
+      <div className="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-lg flex justify-center items-center h-[70px]"><Header/></div>
+      <div className="flex flex-col justify-center items-center mt-20">
         <div className="font-semibold text-sm text-gray-400 mt-5">
           Get Started
         </div>

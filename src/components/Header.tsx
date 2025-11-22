@@ -26,14 +26,14 @@ export default function Header() {
   
   return (
     <div>
-      <div className="w-full justify-center flex py-8 gap-24 ">
+      <div className="w-full justify-center flex py-8  gap-24 md:gap-18">
         <div className="flex items-center gap-2">
-          <div className="bg-black w-[2vw] h-[4vh] flex justify-center items-center rounded-md">
-            <div className="text-white text-xl font-mono ">FA</div>
+          <div className="bg-black w-[2vw] h-[4vh] md:w-[3vw] flex justify-center items-center rounded-md">
+            <div className="text-white text-xl md:text-sm font-mono ">FA</div>
           </div>
-          <div className="text-3xl font-bold">Folio AI</div>
+          <div className="text-3xl md:text-xl font-bold">Folio AI</div>
         </div>
-        <div className="flex items-center text-sm gap-9 ">
+        <div className="flex items-center text-sm md:text-xs gap-9 md:gap-6">
           <div
             className="cursor-pointer hover:text-gray-500  font-semibold"
             onClick={() => handleScroll("howitworks")}
@@ -67,12 +67,12 @@ export default function Header() {
         </div>
         <div className="flex gap-2 items-center">
           <div className="relative inline-block ">
-            <div className="flex items-center gap-2 border w-[7vw] h-[4vh] text-sm rounded-md justify-between px-3 py-1">
-              <CiGlobe size={16} />
-              <span>{lang}</span>
+            <div className="flex items-center gap-2 md:gap-0.5 border w-[7vw] h-[4vh] md:w-[8vw] text-sm md:text-xs rounded-md justify-between px-3 md:px-1 md:py-1 py-1">
+              <CiGlobe size={16} className="md:text-xl" />
+              <span className="md:text-xs text-xl">{lang}</span>
               <IoIosArrowDown
                 size={16}
-                className="cursor-pointer"
+                className="cursor-pointer md:text-xs"
                 onClick={() => setOpen(!open)}
               />
             </div>
@@ -146,7 +146,7 @@ export default function Header() {
             )}
           </div>
           <button
-            className="bg-black text-white p-3 text-sm rounded-md cursor-pointer"
+            className="bg-black text-white p-3 text-sm md:w-[8vw] md:text-xs md:p-1.5 rounded-md h-[4.5vh] cursor-pointer"
             onClick={() => handleNavigate("/bookdemo")}
           >
             Book a demo

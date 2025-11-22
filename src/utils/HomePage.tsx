@@ -28,34 +28,34 @@ export default function HomePage() {
         {" "}
         <Header />
       </div>
-      <div className="flex justify-center items-center ml-10 ">
+      <div className="flex justify-center  items-center ml-10 ">
         <div className="flex flex-col w-[25vw] gap-6">
-          <div className="text-5xl gap-">
+          <div className="text-5xl md:text-2xl ">
             <div>Build AI Agents that</div>
             <div>Speak & Sell in</div>
             <div>Minutes</div>
           </div>
-          <div className="text-gray-600 font-semibold">
+          <div className="text-gray-600 font-semibold md:text-sm">
             From your workshop to clients worldwide, , Folio turns your product
             details into share-link smart stores that speak any language —
             instantly.
           </div>
-          <button className="bg-blue-300 rounded-md w-[8vw] h-[4vh] text-white font-semibold text-sm cursor-pointer">
+          <button className="bg-blue-300 rounded-md w-[8vw] h-[4vh] text-white md:text-xs font-semibold text-sm cursor-pointer">
             Try Folio AI for Free
           </button>
-          <div className="border flex justify-between items-center  w-[9vw] h-[5vh] p-2 rounded-sm cursor-pointer">
-            <FaApple className="text-4xl" />
-            <div className="flex flex-col font-semibold ">
-              <div className="text-xs">Download on the</div>
-              <div>App Store</div>
+          <div className="border flex gap-2 items-center  w-[9vw] h-[5vh] md:w-[10vw] p-2 md:px-1 rounded-sm cursor-pointer">
+            <FaApple className="text-3xl md:text-xl" />
+            <div className="flex flex-col font-semibold text-sm md:text-xs">
+              <div className="text-xs md:text-[0.8vw] ">Download on the</div>
+              <div className="md:text-[0.8vw] text-sm" >App Store</div>
             </div>
           </div>
         </div>
-        <div>
-          <img src="homePage.jpg" />
+        <div className="">
+          <img src="homePage.jpg" className="w-[30vw] h-[70vh] md:w-[40vw] md:h-[60vh]" />
         </div>
       </div>
-      <div id="howitworks" style={{ scrollMarginTop: "70px" }}>
+      <div id="howitworks" style={{ scrollMarginTop: "70px" }} >
         <HowItWorks />
       </div>
       <div id="showcase" style={{ scrollMarginTop: "70px" }}>

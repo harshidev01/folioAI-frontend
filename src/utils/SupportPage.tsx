@@ -8,7 +8,7 @@ export default function SupportPage() {
       <div className="flex justify-center text-4xl font-semibold mt-20">
           Support & FAQ
         </div>
-      <div className="flex flex-col ml-120 mt-15">
+      <div className="flex flex-col ml-120 md:ml-70 mt-15">
         
         <div className="flex flex-col w-[50vw] ">
           <div className="flex text-3xl font-semibold ">Need help?</div>

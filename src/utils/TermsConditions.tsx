@@ -10,7 +10,7 @@ export default function TermsConditions() {
       <div className="flex justify-center text-4xl font-semibold mt-20">
         Terms and Conditions
       </div>
-      <div className="flex flex-col ml-120 mt-15">
+      <div className="flex flex-col ml-120 md:ml-70 mt-15">
         <div className="flex flex-col w-[50vw] mt-8">
           <div className="text-3xl font-semibold">Effective Date</div>
           <div className="text-sm font-semibold text-gray-800 mt-2">

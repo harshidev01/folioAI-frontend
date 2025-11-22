@@ -9,12 +9,12 @@ export default function SignupPage() {
   return (
     <div className="flex flex-col justify-center items-center mt-60">
       <div className="flex items-center gap-2">
-        <div className="bg-black w-[2vw] h-[4vh] flex justify-center items-center rounded-md">
+        <div className="bg-black w-[2vw] h-[4vh] md:w-[3.5vw] flex justify-center items-center rounded-md">
           <div className="text-white text-xl font-mono ">FA</div>
         </div>
         <div className="text-3xl font-bold">Folio AI</div>
       </div>
-      <div className="flex flex-col border-gray-700  w-[20vw] h-[40vh] rounded-xl p-6 gap-4 justify-center mt-5 shadow-2xl">
+      <div className="flex flex-col border-gray-700  w-[20vw] h-[40vh] md:w-[32vw] md:h-[40vh] rounded-xl p-6 gap-4 justify-center mt-5 shadow-2xl">
         <div className="text-2xl font-semibold">Join Folio AI</div>
         <div className="text-sm text-gray-500">
           Get started with your account
@@ -37,7 +37,7 @@ export default function SignupPage() {
           />
         </div>
         <div className="flex justify-center">
-          <button className="bg-black text-white p-1 rounded-md w-[8vw] justify-center cursor-pointer">
+          <button className="bg-black text-white p-1 rounded-md w-[8vw] md:w-[12vw] md:text-xs md:p-1.5 justify-center cursor-pointer">
             Create Account
           </button>
         </div>

@@ -13,22 +13,22 @@ export default function Footer() {
   return (
     <div className="flex w-full">
       <div className="w-full bg-black text-white justify-center flex flex-col items-center">
-        <div className="flex w-[20vw] text-3xl font-semibold">
+        <div className="flex w-[20vw] text-3xl  font-semibold md:text-xl md:w-[30vw]">
           Spin up your first smart store in minutes and engage customers
           everywhere — start now!
         </div>
-        <div className="font-semibold text-gray-500 mt-5">
+        <div className="font-semibold text-gray-500 mt-5 md:text-xs">
           Don’t miss out—join the future of industrial commerce today!
         </div>
         <div className="flex gap-15 mt-5">
-          <button className="bg-blue-300 rounded-md w-[8vw] h-[4vh] text-white font-semibold text-sm cursor-pointer">
+          <button className="bg-blue-300 rounded-md w-[8vw] h-[4vh] md:w-[9vw] md:h-[5vh] text-white font-semibold text-sm cursor-pointer">
             Get started today!
           </button>
-          <div className="border flex justify-between items-center  w-[9vw] h-[4.5vh] px-2 p-3 bg-white text-black rounded-sm cursor-pointer">
-            <FaApple className="text-3xl" />
+          <div className="border flex  items-center  w-[9vw] h-[4.5vh] px-2 md:w-[10vw] md:h-[5vh] p-3 md:p-1 bg-white text-black rounded-sm cursor-pointer">
+            <FaApple className="text-3xl md:text-xl" />
             <div className="flex flex-col font-semibold">
-              <div className="text-xs">Download on the</div>
-              <div className="flex tex-sm">App Store</div>
+              <div className="text-xs md:text-[1vw]">Download on the</div>
+              <div className="flex tex-sm md:text-xs ">App Store</div>
             </div>
           </div>
         </div>
